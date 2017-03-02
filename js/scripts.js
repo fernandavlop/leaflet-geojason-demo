@@ -51,7 +51,6 @@ $.getJSON('data/data.geojson', function(jqueryData) {
     }
   }).addTo(map);
 
-    console.log('Here is the data we got using jQuery', jqueryData)
 
   //add geojson data that jQuery downloaded and parsed
   L.geoJson(jqueryData, {
